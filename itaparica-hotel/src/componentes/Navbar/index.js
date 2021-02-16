@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Nav = styled.nav`
   top: 13px;
@@ -12,30 +12,16 @@ const Nav = styled.nav`
   opacity: 0.98;
 `;
 
-const Link = styled.link`
-  top: 41px;
-  left: 615px;
-  width: 38px;
-  height: 19px;
-  text-align: center;
-  font: normal normal bold 16px/19px Lato;
-  letter-spacing: 0px;
-  color: #9a9a9a;
-  opacity: 1;
-`;
-
 const NavBar = () => {
-  return (
-    <Nav>
-      <Link>Inicio</Link>
-      <Link>quartos</Link>
-      <Link>o hotal</Link>
-      <Link>promoção</Link>
-      <Link>localização</Link>
-      <Link>contato</Link>
-      <button></button>
-    </Nav>
-  );
+  return <Nav>
+    <a href="#">Inicio</a>
+    <a href="#">quartos</a>
+    <a href="#">o hotal</a>
+    <a href="#">promoção</a>
+    <a href="#">localização</a>
+    <a href="#">contato</a>
+    <button>Reservas</button>
+  </Nav>;
 };
 
 export default NavBar;
