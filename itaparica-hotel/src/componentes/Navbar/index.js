@@ -19,7 +19,8 @@ const LogoHeader = styled.a`
 `;
 
 const Button1 = styled.a`
-  opacity: 0.9
+  opacity: 0.9;
+  hover: 1;
 `;
 
 const Button2 = styled.button``;
