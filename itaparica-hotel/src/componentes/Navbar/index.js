@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Nav = styled.nav`
   top: 13px;
@@ -12,16 +12,22 @@ const Nav = styled.nav`
   opacity: 0.98;
 `;
 
+const Button1 = styled.a``;
+
+const Button2 = styled.button``;
+
 const NavBar = () => {
-  return <Nav>
-    <a href="#">Inicio</a>
-    <a href="#">quartos</a>
-    <a href="#">o hotal</a>
-    <a href="#">promoção</a>
-    <a href="#">localização</a>
-    <a href="#">contato</a>
-    <button>Reservas</button>
-  </Nav>;
+  return (
+    <Nav>
+      <Button1>Inicio</Button1>
+      <Button1>quartos</Button1>
+      <Button1>o hotal</Button1>
+      <Button1>promoção</Button1>
+      <Button1>localização</Button1>
+      <Button1>contato</Button1>
+      <Button2>Reservas</Button2>
+    </Nav>
+  );
 };
 
 export default NavBar;
