@@ -18,7 +18,9 @@ const LogoHeader = styled.a`
   opacity: 1;
 `;
 
-const Button1 = styled.a``;
+const Button1 = styled.a`
+  opacity: 0.9
+`;
 
 const Button2 = styled.button``;
 
