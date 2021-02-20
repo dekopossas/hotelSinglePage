@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import logoHeader from './imagens/logoHeader.png';
 
 const Nav = styled.nav`
   top: 13px;
@@ -11,7 +12,11 @@ const Nav = styled.nav`
   border-radius: 8px;
   opacity: 0.98;
 `;
-const LogoHeader = styled.a``;
+const LogoHeader = styled.a`
+  width: 62px;
+  height: 65px;
+  opacity: 1;
+`;
 
 const Button1 = styled.a``;
 
@@ -20,9 +25,9 @@ const Button2 = styled.button``;
 const NavBar = () => {
   return (
     <Nav>
-      <a href="#">
-        <img src="imagens/logoHeader.png" alt="hotel itaparica"></img>
-      </a>
+      <LogoHeader href="#">
+        <img src={logoHeader} alt="hotel itaparica"></img>
+      </LogoHeader>
       <Button1 href="#">Inicio</Button1>
       <Button1>quartos</Button1>
       <Button1>o hotal</Button1>
