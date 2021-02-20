@@ -11,6 +11,7 @@ const Nav = styled.nav`
   border-radius: 8px;
   opacity: 0.98;
 `;
+const LogoHeader = styled.a``;
 
 const Button1 = styled.a``;
 
@@ -19,6 +20,9 @@ const Button2 = styled.button``;
 const NavBar = () => {
   return (
     <Nav>
+      <a href="#">
+        <img src="imagens/logoHeader.png" alt="hotel itaparica"></img>
+      </a>
       <Button1 href="#">Inicio</Button1>
       <Button1>quartos</Button1>
       <Button1>o hotal</Button1>
