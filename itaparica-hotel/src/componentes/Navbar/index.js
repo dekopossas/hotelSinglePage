@@ -19,7 +19,7 @@ const Button2 = styled.button``;
 const NavBar = () => {
   return (
     <Nav>
-      <Button1>Inicio</Button1>
+      <Button1 href="#">Inicio</Button1>
       <Button1>quartos</Button1>
       <Button1>o hotal</Button1>
       <Button1>promoção</Button1>
