@@ -21,10 +21,9 @@ const NavButton = styled.nav`
   margin: 7%;
 `;
 
-
 const LogoHeader = styled.a`
   opacity: 1;
-  margin: 7%
+  margin: 7%;
 `;
 
 const ImageLogo = styled.img`
@@ -35,12 +34,22 @@ const ImageLogo = styled.img`
 const Button1 = styled.li`
   opacity: 0.9;
   cursor: pointer;
-  color: #9A9A9A;
+  color: #9a9a9a;
   list-style: none;
-  margin: 20px
+  margin: 20px;
 `;
 
-const Button2 = styled.button``;
+const Button2 = styled.button`
+  border-radius: 19px;
+  background: #F16136 0% 0% no-repeat padding-box;
+  width: 114px;
+  height: 31px;
+  margin: 2% 20px;
+  text-align: center;
+  font: normal normal bold 16px/19px Lato;
+  color: #FFFFFF;
+  border-color: #F16136
+`;
 
 const NavBar = () => {
   return (
