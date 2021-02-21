@@ -4,9 +4,14 @@ import cofeBreakerBackGround from './image3/Image3.png';
 
 const Boddy = styled.div``;
 
+const BackgroundImage = styled.img`
+  background-size: cover;
+  min-height: 100px;
+`;
+
 const BoddyComponent = () => {
   return <Boddy>
-    <img src={cofeBreakerBackGround} alt="sala de cafe"></img>
+    <BackgroundImage src={cofeBreakerBackGround} alt="sala de cafe"></BackgroundImage>
   </Boddy>;
 };
 
