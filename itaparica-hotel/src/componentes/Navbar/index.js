@@ -36,6 +36,7 @@ const Button1 = styled.li`
   cursor: pointer;
   color: #9a9a9a;
   list-style: none;
+  font: normal normal bold 16px/19px Lato;
   margin: 20px;
 `;
 
