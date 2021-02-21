@@ -32,24 +32,32 @@ const ImageLogo = styled.img`
 `;
 
 const Button1 = styled.li`
-  opacity: 0.9;
+  opacity: 0.8;
   cursor: pointer;
   color: #9a9a9a;
   list-style: none;
   font: normal normal bold 16px/19px Lato;
   margin: 20px;
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 const Button2 = styled.button`
   border-radius: 19px;
-  background: #F16136 0% 0% no-repeat padding-box;
+  background: #F16136;
   width: 114px;
   height: 31px;
   margin: 2% 20px;
   text-align: center;
   font: normal normal bold 16px/19px Lato;
   color: #FFFFFF;
-  border-color: #F16136
+  border-color: #F16136;
+  opacity: 1;
+  &:hover {
+    background-color: #FFFFFF;
+    color: #F16136;
+  }
 `;
 
 const NavBar = () => {
