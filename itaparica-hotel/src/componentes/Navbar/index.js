@@ -58,7 +58,7 @@ const NavBar = () => {
         <ImageLogo src={logoHeader} alt="hotel itaparica"></ImageLogo>
       </LogoHeader>
       <NavButton>
-        <Button1 href="#">Inicio</Button1>
+        <Button1 href="#">Início</Button1>
         <Button1>quartos</Button1>
         <Button1>o hotal</Button1>
         <Button1>promoção</Button1>

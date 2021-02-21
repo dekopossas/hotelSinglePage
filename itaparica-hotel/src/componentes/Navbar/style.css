@@ -1,0 +1,7 @@
+.onHover {
+  opacity: 0.9;
+}
+
+.onHover:hover {
+  opacity: 1;
+}
