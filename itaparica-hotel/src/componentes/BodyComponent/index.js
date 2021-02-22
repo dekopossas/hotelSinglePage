@@ -12,10 +12,10 @@ const Boddy = styled.div`
   display: flex;
 `;
 
-const BoddyComponent = () => {
+const BodyComponent = () => {
   return <Boddy>
     <FormHome/>
   </Boddy>;
 };
 
-export default BoddyComponent;
+export default BodyComponent;
