@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logoHeader from './imagens/logoHeader.png';
+import logoHeader from './image2/logoHeader.png';
 
 const Nav = styled.nav`
   width: 90%;
